@@ -33,7 +33,7 @@ Anaconda - Python 3.7
 ### Register No:212221230118
 
 ## i) Write the frame as JPG file
-```
+
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
 
@@ -45,10 +45,9 @@ while (True):
 videoCaptureObject.release()
 cv2.DestroyAllWindows()
 
-```
 
 ## ii) Display the video
-```
+
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
 
@@ -62,10 +61,10 @@ cv2.destroyAllWindows()
 
 
 
-```
+
 
 ## iii) Display the video by resizing the window
-```
+
 
 import cv2
 import numpy as np
@@ -86,12 +85,12 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-```
+
 
 ## iv) Rotate and display the video
 
 
-```
+
 import cv2
 import numpy as np
 cap  = cv2.VideoCapture(0)
@@ -115,7 +114,7 @@ cv2.destroyAllWindows()
 
 
 
-```
+
 ## Output
 
 ### i) Write the frame as JPG image
@@ -126,25 +125,24 @@ cv2.destroyAllWindows()
 
 
 ### ii) Display the video
-</br>
+
 ![WhatsApp Image 2024-03-07 at 08 29 15_ad1e9a92](https://github.com/VarshaAjith1110/Image_Acqusition-_using_Web_Camera/assets/94222288/dedf5f38-e942-4e66-85a3-e652041b78c2)
 
-</br>
+
 
 
 ### iii) Display the video by resizing the window
-</br>
+
 ![WhatsApp Image 2024-03-07 at 08 29 05_e9e078bc](https://github.com/VarshaAjith1110/Image_Acqusition-_using_Web_Camera/assets/94222288/946d7c0d-1da1-47d3-9f6f-7eb0cdab0a34)
 
-</br>
+
 
 
 
 ### iv) Rotate and display the video
-</br>
+
 ![WhatsApp Image 2024-03-07 at 08 29 26_61d16c0e](https://github.com/VarshaAjith1110/Image_Acqusition-_using_Web_Camera/assets/94222288/f7bff1d2-bbe6-4b2b-946f-27c9920a4642)
 
-</br>
 
 
 
