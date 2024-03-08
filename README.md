@@ -1,8 +1,6 @@
 # Image_Acqusition-_using_Web_Camera
 ## Aim
- 
-Aim:
- 
+
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
 i) Write the frame as JPG 
 ii) Display the video 
@@ -12,12 +10,11 @@ iv) Rotate and display the video
 ## Software Used
 Anaconda - Python 3.7
 ## Algorithm
-### Step 1:Use cv2.VideoCapture(0) to access web camera
-<br>
+### Step 1:
+Import OpenCV Package.
 
-### Step 2:Use cv2.imread to read the video or image
-<br>
-
+### Step 2:
+Capture Video from Webcam. Use VideoCapture(0) to access the webcam and start capturing video.
 ### Step 3:Use cv2.imread to read the video or image
 <br>
 
@@ -114,26 +111,27 @@ cv2.destroyAllWindows()
 
 
 
-
+```
 ## Output
 
 ### i) Write the frame as JPG image
 </br>
-![WhatsApp Image 2024-03-07 at 08 28 57_9098702b](https://github.com/VarshaAjith1110/Image_Acqusition-_using_Web_Camera/assets/94222288/5de2ac89-c4db-4035-9828-81cad7eb3879)
+![WhatsApp Image 2024-03-08 at 08 44 17_2def11e4](https://github.com/VarshaAjith1110/Image_Acqusition-_using_Web_Camera/assets/94222288/cd50c729-fc9b-4826-839e-186f61420743)
 
 </br>
 
 
 ### ii) Display the video
-
-![WhatsApp Image 2024-03-07 at 08 29 15_ad1e9a92](https://github.com/VarshaAjith1110/Image_Acqusition-_using_Web_Camera/assets/94222288/dedf5f38-e942-4e66-85a3-e652041b78c2)
+![WhatsApp Image 2024-03-08 at 08 40 46_fc586d47](https://github.com/VarshaAjith1110/Image_Acqusition-_using_Web_Camera/assets/94222288/d2fe9987-b537-49e2-85bd-ddf7dc93473a)
 
 
 
 
 ### iii) Display the video by resizing the window
 
-![WhatsApp Image 2024-03-07 at 08 29 05_e9e078bc](https://github.com/VarshaAjith1110/Image_Acqusition-_using_Web_Camera/assets/94222288/946d7c0d-1da1-47d3-9f6f-7eb0cdab0a34)
+![WhatsApp Image 2024-03-08 at 08 44 18_5489b7bb](https://github.com/VarshaAjith1110/Image_Acqusition-_using_Web_Camera/assets/94222288/b5c3e782-53b0-47b9-8c0f-afbe63798d61)
+
+
 
 
 
@@ -141,8 +139,7 @@ cv2.destroyAllWindows()
 
 ### iv) Rotate and display the video
 
-![WhatsApp Image 2024-03-07 at 08 29 26_61d16c0e](https://github.com/VarshaAjith1110/Image_Acqusition-_using_Web_Camera/assets/94222288/f7bff1d2-bbe6-4b2b-946f-27c9920a4642)
-
+![WhatsApp Image 2024-03-08 at 08 44 18_05942d88](https://github.com/VarshaAjith1110/Image_Acqusition-_using_Web_Camera/assets/94222288/a2e91475-e1df-4c71-8b08-708de719b888)
 
 
 
